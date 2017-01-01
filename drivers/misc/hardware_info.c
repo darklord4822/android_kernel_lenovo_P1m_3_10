@@ -6,7 +6,7 @@
 
 #include <linux/proc_fs.h>
 #include <linux/hardware_info.h>
-#include <lcm_drv.h>
+#include "lcm_drv.h"
 
 // for get EMMC flash info from factory mode ;porting from kk by billy@wt ;2014/04/27
 extern char emmc_device_name[];
