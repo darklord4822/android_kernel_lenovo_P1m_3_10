@@ -1,0 +1,142 @@
+scripts/kconfig/conf --silentoldconfig Kconfig
+Enter main function!
+The 0th param is: 
+/home/darklord4822/android_kernel_lenovo_p1m/tools/dct/DrvGen
+The 1th param is: 
+/home/darklord4822/android_kernel_lenovo_p1m/drivers/misc/mediatek/mach/mt6735/wt98735_a1/dct/dct/codegen.dws
+The 2th param is: 
+/home/darklord4822/android_kernel_lenovo_p1m/drivers/misc/mediatek/mach/mt6735/wt98735_a1/dct/dct/inc
+The 3th param is: 
+/home/darklord4822/android_kernel_lenovo_p1m/drivers/misc/mediatek/mach/mt6735/wt98735_a1/dct/dct/inc
+The 4th param is: 
+clk_buf_dtsi
+Enter main function!
+The 0th param is: 
+/home/darklord4822/android_kernel_lenovo_p1m/tools/dct/DrvGen
+The 1th param is: 
+/home/darklord4822/android_kernel_lenovo_p1m/drivers/misc/mediatek/mach/mt6735/wt98735_a1/dct/dct/codegen.dws
+The 2th param is: 
+/home/darklord4822/android_kernel_lenovo_p1m/drivers/misc/mediatek/mach/mt6735/wt98735_a1/dct/dct/inc
+The 3th param is: 
+/home/darklord4822/android_kernel_lenovo_p1m/drivers/misc/mediatek/mach/mt6735/wt98735_a1/dct/dct/inc
+The 4th param is: 
+adc_dtsi
+Enter main function!
+The 0th param is: 
+/home/darklord4822/android_kernel_lenovo_p1m/tools/dct/DrvGen
+The 1th param is: 
+/home/darklord4822/android_kernel_lenovo_p1m/drivers/misc/mediatek/mach/mt6735/wt98735_a1/dct/dct/codegen.dws
+The 2th param is: 
+/home/darklord4822/android_kernel_lenovo_p1m/drivers/misc/mediatek/mach/mt6735/wt98735_a1/dct/dct/inc
+The 3th param is: 
+/home/darklord4822/android_kernel_lenovo_p1m/drivers/misc/mediatek/mach/mt6735/wt98735_a1/dct/dct/inc
+The 4th param is: 
+md1_eint_dtsi
+Enter main function!
+The 0th param is: 
+/home/darklord4822/android_kernel_lenovo_p1m/tools/dct/DrvGen
+The 1th param is: 
+/home/darklord4822/android_kernel_lenovo_p1m/drivers/misc/mediatek/mach/mt6735/wt98735_a1/dct/dct/codegen.dws
+The 2th param is: 
+/home/darklord4822/android_kernel_lenovo_p1m/drivers/misc/mediatek/mach/mt6735/wt98735_a1/dct/dct/inc
+The 3th param is: 
+/home/darklord4822/android_kernel_lenovo_p1m/drivers/misc/mediatek/mach/mt6735/wt98735_a1/dct/dct/inc
+The 4th param is: 
+kpd_dtsi
+begin to open log file!
+DCT gen no log file for AOSP!
+start to gen code!
+start to read workspace!
+begin to open log file!
+DCT gen no log file for AOSP!
+start to gen code!
+start to read workspace!
+begin to open log file!
+DCT gen no log file for AOSP!
+start to gen code!
+start to read workspace!
+begin to open log file!
+DCT gen no log file for AOSP!
+start to gen code!
+start to read workspace!
+/home/darklord4822/android_kernel_lenovo_p1m/drivers/misc/mediatek/mach/mt6735/wt98735_a1/dct/dct/codegen.dws
+start to parse fig file!
+/home/darklord4822/android_kernel_lenovo_p1m/drivers/misc/mediatek/mach/mt6735/wt98735_a1/dct/dct/codegen.dws
+start to parse fig file!
+/home/darklord4822/android_kernel_lenovo_p1m/drivers/misc/mediatek/mach/mt6735/wt98735_a1/dct/dct/codegen.dws
+start to parse fig file!
+/home/darklord4822/android_kernel_lenovo_p1m/drivers/misc/mediatek/mach/mt6735/wt98735_a1/dct/dct/codegen.dws
+start to parse fig file!
+  CHK     include/generated/uapi/linux/version.h
+  CHK     include/generated/utsrelease.h
+start to parse fig file!
+start to parse fig file!
+Start to gen cust_clk_buf.dtsi...
+Gen cust_clk_buf.dtsi file successfully!.
+start to parse fig file!
+Start to gen cust_kpd.dtsi...
+Gen cust_kpd.dtsi file successfully!.
+Start to gen cust_adc.dtsi...
+Gen cust_adc.dtsi file successfully!.
+start to parse fig file!
+Start to gen cust_md1_eint.dtsi...
+Gen cust_md1_eint.dtsi file successfully!.
+  CC      scripts/mod/devicetable-offsets.s
+  GEN     scripts/mod/devicetable-offsets.h
+  HOSTCC  scripts/mod/file2alias.o
+  CALL    scripts/checksyscalls.sh
+  HOSTLD  scripts/mod/modpost
+  CHK     include/generated/compile.h
+  CC      kernel/printk.o
+  LD      kernel/built-in.o
+"CONFIG_TRUSTONIC_TEE_SUPPORT = "
+make[1]: Цель «dtbs» не требует выполнения команд.
+/home/darklord4822/android_kernel_lenovo_p1m/drivers/misc/mediatek/fmradio/Makefile:13: feature_option="MT6625_FM"
+/home/darklord4822/android_kernel_lenovo_p1m/drivers/misc/mediatek/fmradio/Makefile:109: MT6627_FM
+/home/darklord4822/android_kernel_lenovo_p1m/drivers/misc/mediatek/fmradio/Makefile:134: core/fm_module.o core/fm_main.o core/fm_config.o core/fm_rds_parser.o core/fm_patch.o core/fm_utils.o core/fm_link.o core/fm_eint.o mt6627/pub/mt6627_fm_lib.o mt6627/pub/mt6627_fm_rds.o mt6627/pub/mt6627_fm_cmd.o mt6627/pub/mt6627_fm_config.o
+mali MTK evironment
+imgsensor drv by platform ov8865_mipi_raw ov8865_mipi_raw_sunny hi551_mipi_raw hi551avc_mipi_raw
+  CC      drivers/misc/mediatek/mtprof/bootprof.o
+  LD      drivers/misc/mediatek/mtprof/built-in.o
+/home/darklord4822/android_kernel_lenovo_p1m/drivers/misc/mediatek/ssw/Makefile:5: "SSW_DIR=/home/darklord4822/android_kernel_lenovo_p1m/drivers/misc/mediatek/ssw/ssw_single_v2ssw_exist=y"
+  CC      drivers/misc/mediatek/uart/uart.o
+In file included from drivers/misc/mediatek/uart/uart.c:55:0:
+/home/darklord4822/android_kernel_lenovo_p1m/drivers/misc/mediatek/mach/mt6735/include/mach/irqs.h:10:0: warning: "NR_IRQS" redefined
+ #define NR_IRQS (NR_MT_IRQ_LINE+220)
+ ^
+In file included from /home/darklord4822/android_kernel_lenovo_p1m/arch/arm64/include/asm/irq.h:4:0,
+                 from /home/darklord4822/android_kernel_lenovo_p1m/arch/arm64/include/asm/hardirq.h:21,
+                 from include/linux/hardirq.h:8,
+                 from include/linux/interrupt.h:12,
+                 from include/linux/serial_core.h:25,
+                 from drivers/misc/mediatek/uart/uart.c:40:
+include/asm-generic/irq.h:10:0: note: this is the location of the previous definition
+ #define NR_IRQS 64
+ ^
+drivers/misc/mediatek/uart/uart.c: In function 'mtk_uart_history_store':
+drivers/misc/mediatek/uart/uart.c:695:9: warning: unused variable 'res' [-Wunused-variable]
+     int res = sscanf(buffer, "%d %d", &tx_index, &rx_index);
+         ^
+  LD      drivers/misc/mediatek/uart/built-in.o
+  LD      drivers/misc/mediatek/built-in.o
+  LD      drivers/misc/built-in.o
+  LD      drivers/built-in.o
+  LINK    vmlinux
+  LD      vmlinux.o
+  MODPOST vmlinux.o
+WARNING: modpost: Found 60 section mismatch(es).
+To see full details build your kernel with:
+'make CONFIG_DEBUG_SECTION_MISMATCH=y'
+  GEN     .version
+  CHK     include/generated/compile.h
+  UPD     include/generated/compile.h
+  CC      init/version.o
+  LD      init/built-in.o
+  KSYM    .tmp_kallsyms1.o
+  KSYM    .tmp_kallsyms2.o
+  LD      vmlinux
+  SYSMAP  System.map
+  DTC     arch/arm64/boot/dts/wt98735_a1.dtb
+  OBJCOPY arch/arm64/boot/Image
+  GZIP    arch/arm64/boot/Image.gz
+  CAT     arch/arm64/boot/Image.gz-dtb
