@@ -2540,9 +2540,8 @@ CONFIG_STAGING=y
 # CONFIG_TRANZPORT is not set
 # CONFIG_LINE6_USB is not set
 CONFIG_ZSMALLOC=y
-CONFIG_ZRAM=y
-CONFIG_ZRAM_DEBUG=y
-CONFIG_MTK_GPU_VERSION="mali midgard r7p0"
+# CONFIG_ZRAM is not set
+# CONFIG_ZRAM_DEBUG is not set
 # CONFIG_ZSM is not set
 # CONFIG_BCM_WIMAX is not set
 # CONFIG_FT1000 is not set
@@ -2710,6 +2709,7 @@ CONFIG_MISC_FILESYSTEMS=y
 # CONFIG_BEFS_FS is not set
 # CONFIG_BFS_FS is not set
 # CONFIG_EFS_FS is not set
+CONFIG_DYNAMIC_FSYNC=y
 # CONFIG_JFFS2_FS is not set
 # CONFIG_LOGFS is not set
 # CONFIG_CRAMFS is not set
